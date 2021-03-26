@@ -6,13 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NoTeRindas</title>
     <link rel="stylesheet" href="estilo.css" />
+
+    <style>@font-face {
+        font-family:Futura-Bold-font;
+        src: url(fuentes/Futura\ Bold\ font.ttf);}
+    </style>
+    <style>@font-face {
+        font-family:Futura-light-font;
+        src: url(fuentes/Futura\ Light\ font.ttf);}
+    </style>
+     
 </head>
 
 <body>
+    
     <header>
         <nav id="navbar">
             <div class="logo">
-                <img src="logo.png" alt="logo" width="30%" height="30%">
+                <img src="images/logo.png" alt="logo" width="30%" height="30%">
             </div>
             <div class="navegacion">
                 <a href="#publicidad2">Home</a>
@@ -27,7 +38,7 @@
     </header>
 
     <div id="publicidad2">
-        <img id="publicidad" src="Publicidad.jpg">
+        <img id="publicidad" src="images/Publicidad.jpg">
     </div>
 
     <section>
@@ -53,19 +64,64 @@
         <h1 id="galeria">Gallery</h1>
         <div class="carrusel">
         </div>
-        <h1 id="multimedia">Multimedia</h1>
-        <iframe height="315" src="https://www.youtube.com/embed/E2PO7dgtRlI?loop=1" frameborder="0"
+        <div><h1 id="multimedia">Multimedia</h1></div>
+        <div>
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/-uaLNf6p54c" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/JndZ3y-KVLQ" title="YouTube video player" frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <iframe height="315" src="https://www.youtube.com/embed/E2PO7dgtRlI?loop=1" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe height="315" src="https://www.youtube.com/embed/DPEvF8l9LDM?controls=0" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        </div>    
     </section>
 
-    <footer class="footer">
-        <div id="imagen">
-            <img src="fo2.png" alt="footer2" width="100%" height="20%">
+     <!-- <footer class="footer">
+        <div>
+        <div class="facebook"><a href="https://www.facebook.com/No-te-rindas-102377235235362" target="facebook">
+            <img src="images/facebook.png"
+              alt="facebook" width="11%" height="11%"></a><p>No te rindas</p></div>
+              
+        <div class="instagram"><a href="https://www.instagram.com/noterindas401/" target="instagram">
+             <img src="images/instagram.png"
+                 alt="facebook" width="11%" height="11%"></a><p>@noterindas401</p></div>
+
+        
+            <img class="dos" src="images/dos.png"  width="11%" height="11%" target="gmail">
+
         </div>
+
+    </footer> -->
+
+    <footer class="footer">
+        <div >
+           <!-- <div class="dos"> <img src="images/dos.png" width="80%" height="80%" target="">
+            </div> -->
+        <div class="gmail"><img src="images/gmail.png"target="gmail">
+                <p>noterindas401@gmail.com</p>
+            </div>
+        <div class="celular"><img src="images/celular.png" target="celular">
+                <p>300-342-5634</p>
+            </div>
+        
+        <div class="instagram"><a href="https://www.instagram.com/noterindas401/" target="instagram">
+            <img src="images/instagram.png"
+                alt="instagram" ></a><p>@noterindas401</p></div>
+                
+        <div class="facebook"><a href="https://www.facebook.com/No-te-rindas-102377235235362" target="facebook">
+            <img src="images/facebook.png"
+              alt="facebook" ></a><p>No te rindas</p></div>
+        </div>
+        </div>
+    </div>
+    
     </footer>
+
+
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

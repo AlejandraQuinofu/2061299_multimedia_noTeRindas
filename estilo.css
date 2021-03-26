@@ -2,9 +2,9 @@ body {
   background: green;
 }
 
-body {
-  font-family: sans-serif;
-}
+/* body {
+  font-family:futura-light-font;
+} */
 
 nav {
   background: gray;
@@ -16,6 +16,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   transition: top 0.5s;
+  font-family: futura-bold-font;
 }
 
 .navegacion > a{
@@ -23,6 +24,7 @@ nav {
   text-decoration: none;
   color: azure;
   padding: 10px;
+  font-family: futura-bold-font;
 }
 
 img#publicidad {
@@ -34,6 +36,7 @@ h1 {
   font-size: 50px;
   color: #e5007d;
   text-align: center;
+  font-family: futura-bold-font;
 }
 
 h2 {
@@ -41,18 +44,21 @@ h2 {
   color: #009ee3;
   text-align: center;
   margin: 20px;
+  font-family: futura-bold-font;
 }
 
 .parrafo {
   font-size: 20px;
   text-align: center;
   margin: 5% 10% 5% 10%;
+  font-family: futura-light-font;
 }
 
 section {
   background: white;
   margin: 0% 10% 0% 10%;
   padding: 0%;
+  font-family: futura-light-font;
 }
 
 * {
@@ -87,7 +93,7 @@ section {
 
   0%,
   12% {
-    background-image: url("01.jpg");
+    background-image: url("images/01.jpg");
   }
 
   13%,
@@ -97,7 +103,7 @@ section {
 
   17%,
   29% {
-    background-image: url("02.jpg");
+    background-image: url("images/02.jpg");
   }
 
   30%,
@@ -107,7 +113,7 @@ section {
 
   34%,
   46% {
-    background-image: url("03.jpg");
+    background-image: url("images/03.jpg");
   }
 
   47%,
@@ -117,7 +123,7 @@ section {
 
   51%,
   63% {
-    background-image: url("04.jpg");
+    background-image: url("images/04.jpg");
   }
 
   64%,
@@ -127,7 +133,7 @@ section {
 
   68%,
   80% {
-    background-image: url("05.jpg");
+    background-image: url("images/05.jpg");
   }
 
   81%,
@@ -137,7 +143,7 @@ section {
 
   85%,
   100% {
-    background-image: url("06.jpg");
+    background-image: url("images/06.jpg");
   }
 
 
@@ -152,11 +158,58 @@ iframe {
 }
 
 #multimedia {
-  margin: 20px;
+  margin-top: 50px;
   color: #E6007E;
   text-align: center;
 }
 
-.footer {
+
+
+ .footer {
   background: black;
+  color: #ffe600;
+  font-family: futura-light-font;
+  font-size: 30px;
+  grid-column: 1/7;
+
+  display: flex;
+ 
 }
+.facebook{
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+.instagram{
+  float:right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 100px;
+
+}
+.celular{ float:right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 100px;
+}
+
+.gmail{ float:right;
+
+  margin-left: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* .dos{
+  border: 3px solid green;
+  display: inline-block;
+  width: 200px;
+  height: 400px;
+  }  */
+
+/* .footer>div{float: left;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-family: roboto;} */
+
